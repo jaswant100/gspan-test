@@ -125,7 +125,23 @@ p{
   border-top: 1px solid #e5e5e5;
   display: inline-grid;
 }
+.sub_grid_1 {
+  display: inherit;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+}
 
+.sub_grid_2 {
+  display: inherit;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+.sub_grid_3 {
+  display: inherit;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

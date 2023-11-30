@@ -12,23 +12,7 @@
   column-gap: 10px;
 }
 
-.sub_grid_1 {
-  display: inherit;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 10px;
-}
 
-.sub_grid_2 {
-  display: inherit;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 10px;
-}
-
-.sub_grid_3 {
-  display: inherit;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 10px;
-}
 
 .grid_item {
   display: inherit;
